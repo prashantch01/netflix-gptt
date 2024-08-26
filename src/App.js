@@ -1,9 +1,8 @@
-
 import './App.css';
 
 function App() {
   return (
-    <div>Namste everyone </div>
+    <div className='text-xl font-bold text-green-500'>Namste everyone </div>
   )
 }
 
