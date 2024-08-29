@@ -100,8 +100,8 @@ const Login = () => {
   return (
     <div >
       <Header />
-      <div className='absolute'>
-        <img src="https://gtwallpaper.org/sites/default/files/wallpaper/246844/netflix-background-246844-2224599-6408439.png" alt='logo' />
+      <div className='absolute '>
+        <img className='' src="https://gtwallpaper.org/sites/default/files/wallpaper/246844/netflix-background-246844-2224599-6408439.png" alt='logo' />
       </div>
       <div className='w-[36vw] absolute p-12 bg-black my-36 mx-auto left-0 right-0 text-white  bg-opacity-90 rounded-lg'>
         <form onSubmit={(e) => e.preventDefault()}>
