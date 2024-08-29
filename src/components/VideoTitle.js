@@ -3,7 +3,7 @@ import React from 'react'
 const VideoTitle = ({title , overview}) => {
   return (
     
-        <div className='pt-[22.5%] px-24 absolute text-white bg-gradient-to-r from-black w-screen '> 
+        <div className='pt-[22%] px-24 absolute text-white bg-gradient-to-r from-black w-screen '> 
         {/* Note  : IF you want to do full screen then add w-screen and aspect-video property to css in VideoTitle and VideoBackground in Div tag or Parent Container  */}
         <h1 className='font-bold text-6xl'>{title}</h1>
         <p className='w-1/3 pt-5'>{overview}</p>

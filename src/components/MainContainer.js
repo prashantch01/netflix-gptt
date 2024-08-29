@@ -8,7 +8,7 @@ const MainContainer = () => {
     //early return 
 
     if(!movies) return  // (movies == null)
-    const mainMovie = movies[2]
+    const mainMovie = movies[13]
     console.log(mainMovie)
 
 
