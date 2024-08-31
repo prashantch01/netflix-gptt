@@ -2,7 +2,7 @@ import React from 'react'
 import MovieCard from "./MovieCard"
 
 const MovieList = ({ title, movies }) => {
-  console.log(title, movies)
+  // console.log(title, movies)
   return (
 
     <div className='w-screen p-6 bg-black text-white scrollbar-hidden '>

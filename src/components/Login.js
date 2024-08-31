@@ -6,7 +6,7 @@ import { auth } from '../utils/firebase'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { addUser } from '../utils/userSlice'
-import {  USER_AVATOR } from '../utils/constants'
+import {  BG_URL, USER_AVATOR } from '../utils/constants'
 
 
 
@@ -101,9 +101,10 @@ const Login = () => {
     <div >
       <Header />
       <div className='absolute '>
-        <img className='' src="https://gtwallpaper.org/sites/default/files/wallpaper/246844/netflix-background-246844-2224599-6408439.png" alt='logo' />
+        <img className='' src={BG_URL} alt='logo' />
       </div>
       <div className='w-[36vw] absolute p-12 bg-black my-36 mx-auto left-0 right-0 text-white  bg-opacity-90 rounded-lg'>
+        
         <form onSubmit={(e) => e.preventDefault()}>
           <h1 className='font-bold text-2xl'>{isSignInForm === true ? "Sign In" : "Sign Up"}</h1>
           {!isSignInForm && <input ref={name} type='text' placeholder='Full Name' className='p-4 my-3 w-full bg-gray-700 rounded-lg' />}
